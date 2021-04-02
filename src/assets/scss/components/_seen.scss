@@ -1,0 +1,55 @@
+.seen {
+  padding: 40px 0;
+  &__title {
+    margin: 0 0 60px 0;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 120.52%;
+  }
+  .container {
+    position: relative;
+  }
+}
+.seen-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  box-sizing: border-box;
+  padding: 25px;
+  background: #F6F8FA;
+  border-radius: 5px;
+  &__title {
+    margin: 0 0 10px;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 120.52%;
+  }
+  &__descr {
+    margin: 0;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 145%
+  }
+  &__price-rub {
+    margin: 0 0 7px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 130%;
+    letter-spacing: 0.005em;
+  }
+  &__price-euro {
+    margin: 0 0 20px;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 145%;
+    color: #797B86;
+  }
+  &__button {
+    display: block;
+    width: 100%;
+    text-decoration: none;
+  }
+}
